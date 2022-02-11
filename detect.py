@@ -8,12 +8,10 @@ from pycoral.adapters.detect import get_objects
 from pycoral.utils.dataset import read_label_file
 from pycoral.utils.edgetpu import make_interpreter
 from pycoral.utils.edgetpu import run_inference
-
-def main():
-    import PIL
+import PIL
 
 from PIL import Image
-
+def main():
 percent = 20  # Percent for gauge
 output_file_name = 'new_gauge.png'
 
