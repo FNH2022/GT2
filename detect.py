@@ -11,7 +11,7 @@ from pycoral.utils.edgetpu import run_inference
 import PIL
 
 from PIL import Image
-def main():
+
 percent = 20  # Percent for gauge
 output_file_name = 'new_gauge.png'
 
@@ -48,5 +48,3 @@ def append_objs_to_img(cv2_im, inference_size, objs, labels):
                              cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 0, 0), 2)
     return cv2_im
 
-if __name__ == '__main__':
-    main()
