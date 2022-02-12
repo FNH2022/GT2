@@ -1,6 +1,6 @@
 
 import PIL
-
+import os
 from PIL import Image
 
 percent = 20  # Percent for gauge
