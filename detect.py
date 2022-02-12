@@ -2,7 +2,7 @@
 import PIL
 
 from PIL import Image
-
+while true :
 percent = 20  # Percent for gauge
 output_file_name = 'new_gauge.png'
 
