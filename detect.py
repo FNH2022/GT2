@@ -2,7 +2,7 @@
 import argparse
 import random
 
-import cv2
+
 import os
 import PIL
 
