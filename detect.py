@@ -26,3 +26,4 @@ dial = dial.rotate(rotation, resample=PIL.Image.BICUBIC, center=loc)  # Rotate n
 gauge = Image.open('gauge.png')
 gauge.paste(dial, mask=dial)  # Paste needle onto gauge
 gauge.save(output_file_name)
+gauge.show()
