@@ -9,7 +9,7 @@ output_file_name = 'new_gauge.png'
 
 percent = 70  # Percent for gauge
 output_file_name = 'new_gauge.png'
-while true :
+
 # X and Y coordinates of the center bottom of the needle starting from the top left corner
 #   of the image
 x = 825
